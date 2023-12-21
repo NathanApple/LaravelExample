@@ -16,6 +16,6 @@ class Student extends Model
     public function student_course(){
         return $this->hasMany(StudentCourse::class, "student_id");
     }
-
+ 
 
 }
